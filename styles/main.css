@@ -12,10 +12,18 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
 }
 
 * {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
 }
 
 .primary-link {
@@ -24,3 +32,8 @@ body {
    font-size: 1.1rem;
 }
 
+.hero {
+    border-radius: 2rem;
+    max-width: 300px;
+    height: auto;
+}
