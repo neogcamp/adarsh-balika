@@ -6,7 +6,7 @@
     --secondary: #f50057;
     --primary-dark: #4b45b2;
     --secondary-dark: #ab003c;
-    --off-white: 	#efefef;
+    --off-white: #f8f8f8;
     --white: #ffffff
 }
 
@@ -28,17 +28,19 @@ a {
 }
 
 .primary-link {
+    display: block;
    color: var(--primary);
    text-decoration: none;
    font-size: 1.1rem;
+   padding: 0.5rem;
 }
 
-.hero {
-    border-radius: 2rem;
-    max-width: 300px;
-    height: auto;
-    margin: auto;
-    display: block;
+.secondary-link {
+   display: block;
+   color: var(--secondary);
+   text-decoration: none;
+   font-size: 1.1rem;
+   padding: 0.5rem;
 }
 
 
@@ -65,10 +67,6 @@ a {
     text-align: right;
 }
 
-section {
-    padding: 2rem 1rem 2rem 1rem;
-}
-
 header {
     padding: 2rem 1rem 2rem 1rem;
 }
@@ -79,9 +77,24 @@ header h1 {
     color: darkgray
 }
 
+header .hero {
+    border-radius: 2rem;
+    max-width: 300px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
 .ow {
     background-color: var(--off-white);
 }
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+
+/** footer **/
 
 footer {
     padding: 2rem 1rem ;
@@ -100,4 +113,12 @@ footer li {
 
 .text-m {
     font-size: 1.2rem;
+}
+
+/** Projects Page **/
+
+.projects .date {
+   margin-bottom: -0.7rem;
+   font-size: 0.8rem;
+   
 }
