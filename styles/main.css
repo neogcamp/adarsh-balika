@@ -47,6 +47,10 @@ a {
     background-color: var(--off-white);
 }
 
+.nav .active {
+    font-weight: bolder;
+}
+
 .nav .logo {
     font-weight: bolder;
     color: var(--primary-dark);
