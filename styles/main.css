@@ -1,0 +1,20 @@
+/** https://material-ui.com/customization/color/ **/
+
+:root {
+    --primary: #6C63FF;
+    --secondary: #f50057;
+    --primary-dark: #4b45b2;
+    --secondary-dark: #ab003c;
+    --off-white: 	#fffff4;
+    --white: #ffffff
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.primary-link {
+   color: var(--primary);
+   text-decoration: none;
+   font-size: 1.1rem;
+}
