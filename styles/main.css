@@ -6,7 +6,7 @@
     --secondary: #f50057;
     --primary-dark: #4b45b2;
     --secondary-dark: #ab003c;
-    --off-white: 	#fffff4;
+    --off-white: 	#efefef;
     --white: #ffffff
 }
 
@@ -14,7 +14,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     max-width: 600px;
     margin: auto;
-    padding: 1em;
 }
 
 * {
@@ -36,4 +35,38 @@ a {
     border-radius: 2rem;
     max-width: 300px;
     height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+.nav {
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: var(--off-white);
+}
+
+.nav .logo {
+    font-weight: bolder;
+    color: var(--primary-dark);
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav ul {
+    text-align: right;
+}
+
+section {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+header {
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
