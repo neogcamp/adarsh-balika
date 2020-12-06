@@ -83,6 +83,11 @@ hr {
     font-weight: bold;
 }
 
+.nav-brand a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navigation .nav-pills {
     text-align: right;
 }
